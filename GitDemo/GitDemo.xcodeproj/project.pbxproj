@@ -14,6 +14,7 @@
 		BCADE6D61C80227000447BF6 /* GitDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BCADE6D41C80227000447BF6 /* GitDemo.xcdatamodeld */; };
 		BCADE6D81C80227000447BF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCADE6D71C80227000447BF6 /* Assets.xcassets */; };
 		BCADE6DB1C80227000447BF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCADE6D91C80227000447BF6 /* LaunchScreen.storyboard */; };
+		BCADE6E91C80271700447BF6 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = BCADE6E81C80271700447BF6 /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		BCADE6D71C80227000447BF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCADE6DA1C80227000447BF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCADE6DC1C80227000447BF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCADE6E71C80271700447BF6 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		BCADE6E81C80271700447BF6 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 		BCADE6C71C80227000447BF6 /* GitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BCADE6E61C8026FB00447BF6 /* b */,
 				BCADE6CB1C80227000447BF6 /* AppDelegate.h */,
 				BCADE6CC1C80227000447BF6 /* AppDelegate.m */,
 				BCADE6CE1C80227000447BF6 /* ViewController.h */,
@@ -80,6 +84,15 @@
 				BCADE6C91C80227000447BF6 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCADE6E61C8026FB00447BF6 /* b */ = {
+			isa = PBXGroup;
+			children = (
+				BCADE6E71C80271700447BF6 /* Student.h */,
+				BCADE6E81C80271700447BF6 /* Student.m */,
+			);
+			name = b;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +167,7 @@
 			files = (
 				BCADE6D01C80227000447BF6 /* ViewController.m in Sources */,
 				BCADE6D61C80227000447BF6 /* GitDemo.xcdatamodeld in Sources */,
+				BCADE6E91C80271700447BF6 /* Student.m in Sources */,
 				BCADE6CD1C80227000447BF6 /* AppDelegate.m in Sources */,
 				BCADE6CA1C80227000447BF6 /* main.m in Sources */,
 			);
@@ -302,6 +316,7 @@
 				BCADE6E11C80227000447BF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
